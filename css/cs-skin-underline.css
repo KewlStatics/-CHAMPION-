@@ -11,7 +11,7 @@
 
 div.cs-skin-underline {
 	background: transparent;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	max-width: 400px;
 }
 
@@ -21,7 +21,7 @@ div.cs-skin-underline {
 
 .cs-skin-underline > span {
 	padding: 0.5em 3em 0.5em 0.5em;
-	border-bottom: 3px solid #000;
+	border-bottom: 3px solid #5198FC;
 	border-color: inherit;
 	font-weight: bold;
 }
@@ -88,7 +88,7 @@ div.cs-skin-underline {
 	left: 0;
 	height: 3px;
 	width: 100%;
-	background-color: #fff;
+	background-color: #5198FC;
 	-webkit-transform: translate3d(200%,0,0);
 	transform: translate3d(200%,0,0);
 	-webkit-transition: -webkit-transform 0.3s;
