@@ -11,7 +11,7 @@
 
 div.cs-skin-underline {
 	background: transparent;
-	font-size: 1.8em;
+	font-size: 1.2em;
 	max-width: 400px;
 }
 
@@ -42,7 +42,7 @@ div.cs-skin-underline {
 }
 
 .cs-skin-underline .cs-options {
-	background: #bbc7c8;
+	background: #fff;
 	opacity: 0;
 	-webkit-transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
 	transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
