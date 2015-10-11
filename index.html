@@ -10,6 +10,9 @@
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/test.css" />
+		<link rel="stylesheet" type="text/css" href="css/demoselect.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-skin-underline.css" />
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -134,9 +137,27 @@
 			</span> -->
 				
 		</section>
+
+		<div class="color-2">
+			<div class="container">
+			
+			<section>
+				<select class="cs-select cs-skin-underline">
+					<option value="" disabled selected>Choose Category</option>
+					<option value="1">Finance</option>
+					<option value="2">Art</option>
+					<option value="3">Music</option>
+					<option value="4">Dance</option>
+					<option value="5">Science</option>
+				</select>
+			</section>
+			
+		</div>
+		</div>
 </div>
 	
 			<script src="js/classie.js"></script>
+			<script src="js/selectFx.js"></script>
 				<script>
 			(function() {
 				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
@@ -170,6 +191,13 @@
 						classie.remove( ev.target.parentNode, 'input--filled' );
 					}
 				}
+			})();
+		</script>
+		<script>
+			(function() {
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+					new SelectFx(el);
+				} );
 			})();
 		</script>
 </body>
